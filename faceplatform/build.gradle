@@ -20,7 +20,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compile files('libs/FaceSDK.jar')
-    compile files('libs/ast.jar')
-    compile files('libs/baidu_license.jar')
+    api files('libs/FaceSDK.jar')
+    api files('libs/ast.jar')
+    api files('libs/baidu_license.jar')
 }
